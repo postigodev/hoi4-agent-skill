@@ -22,7 +22,7 @@ It helps agents work with:
 The canonical skill lives in:
 
 ```txt
-skill/hoi4-modding/
+skills/hoi4-modding/
 ```
 
 The repository is designed to be portable across:
@@ -39,7 +39,7 @@ Platform adapters live under:
 adapters/
 ```
 
-Adapters are intentionally thin. The canonical behavior belongs in `skill/hoi4-modding/SKILL.md`.
+Adapters are intentionally thin. The canonical behavior belongs in `skills/hoi4-modding/SKILL.md`.
 
 ## Why This Exists
 
@@ -58,19 +58,19 @@ This skill encodes those failure modes into reusable agent behavior.
 
 ## Install
 
-Use the `skill/hoi4-modding/` directory with your agent platform.
+Use the `skills/hoi4-modding/` directory with your agent platform.
 
 ### Install With Codex
 
 ```txt
-$skill-installer install https://github.com/postigodev/hoi4-agent-skill/tree/main/skill/hoi4-modding
+$skill-installer install https://github.com/postigodev/hoi4-agent-skill/tree/main/skills/hoi4-modding
 ```
 
 Restart Codex after installing.
 
 ### Use With Claude
 
-Upload or install the `skill/hoi4-modding/` folder as a Claude Skill.
+Upload or install the `skills/hoi4-modding/` folder as a Claude Skill.
 
 ### Use With Cursor
 

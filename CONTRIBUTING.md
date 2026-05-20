@@ -5,7 +5,7 @@ Thanks for helping improve HOI4 Agent Skill.
 ## Project Principles
 
 - Keep the skill platform-neutral.
-- Keep `skill/hoi4-modding/SKILL.md` as the canonical source of behavior.
+- Keep `skills/hoi4-modding/SKILL.md` as the canonical source of behavior.
 - Keep adapters thin.
 - Prefer procedural agent guidance over exhaustive HOI4 tutorials.
 - When adding HOI4-specific guidance, prefer official Paradox Wiki/docs, documented vanilla-style patterns, or reproducible community failure cases.
@@ -37,4 +37,4 @@ Avoid:
 
 Adapters under `adapters/` should point back to the canonical skill. They may include installation notes or compact behavior summaries, but they should not fork the full skill content.
 
-If behavior changes, update `skill/hoi4-modding/SKILL.md` first.
+If behavior changes, update `skills/hoi4-modding/SKILL.md` first.

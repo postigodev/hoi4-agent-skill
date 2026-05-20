@@ -51,13 +51,13 @@ The project should be fully neutral. No platform-specific adapter should become 
 The canonical source of truth is:
 
 ```txt
-skill/hoi4-modding/SKILL.md
+skills/hoi4-modding/SKILL.md
 ```
 
 Supporting references live beside it:
 
 ```txt
-skill/hoi4-modding/references/
+skills/hoi4-modding/references/
 ```
 
 Adapters are thin distribution targets:
@@ -70,7 +70,7 @@ adapters/
   cline/
 ```
 
-Adapters may explain installation steps or provide compact rule files, but they must not fork the full skill content. When in doubt, adapters should point back to `skill/hoi4-modding/SKILL.md`.
+Adapters may explain installation steps or provide compact rule files, but they must not fork the full skill content. When in doubt, adapters should point back to `skills/hoi4-modding/SKILL.md`.
 
 ## MVP Repository Structure
 
@@ -189,14 +189,14 @@ Reference file responsibilities:
 `adapters/codex/README.md` should describe installation through a GitHub directory URL:
 
 ```txt
-skill/hoi4-modding/
+skills/hoi4-modding/
 ```
 
 It should avoid Codex-only language in the canonical skill.
 
 ### Claude
 
-`adapters/claude/README.md` should explain that `skill/hoi4-modding/` is a Claude-compatible skill folder because it contains a `SKILL.md` file with YAML frontmatter.
+`adapters/claude/README.md` should explain that `skills/hoi4-modding/` is a Claude-compatible skill folder because it contains a `SKILL.md` file with YAML frontmatter.
 
 ### Cursor
 
@@ -265,7 +265,7 @@ Scripts should not be part of the MVP.
 
 The MVP is ready when:
 
-- `skill/hoi4-modding/SKILL.md` has platform-neutral frontmatter and concise operating instructions.
+- `skills/hoi4-modding/SKILL.md` has platform-neutral frontmatter and concise operating instructions.
 - The core references exist and cover the main failure modes.
 - The README clearly explains value, supported agents, install paths, and asset/legal posture.
 - Adapter files exist and are thin.
@@ -276,7 +276,7 @@ The MVP is ready when:
 ## Implementation Order
 
 1. Add root project files: `README.md`, `LICENSE`, `SECURITY.md`, `CONTRIBUTING.md`.
-2. Add `skill/hoi4-modding/SKILL.md`.
+2. Add `skills/hoi4-modding/SKILL.md`.
 3. Add core references.
 4. Add adapter READMEs and compact rule files.
 5. Add smoke prompts and expected behavior tests.

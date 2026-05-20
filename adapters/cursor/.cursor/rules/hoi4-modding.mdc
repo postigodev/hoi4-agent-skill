@@ -12,7 +12,7 @@ alwaysApply: true
 
 # HOI4 Modding
 
-These rules are derived from HOI4 Agent Skill. If `skill/hoi4-modding/` exists in this workspace, treat it as canonical. Otherwise, follow this adapter.
+These rules are derived from HOI4 Agent Skill. If `skills/hoi4-modding/` exists in this workspace, treat it as canonical. Otherwise, follow this adapter.
 
 Treat HOI4 mods as Paradox data-script projects. Before editing, inspect the mod root, descriptor files, nearby conventions, prefixes, namespaces, localization files, and affected systems.
 

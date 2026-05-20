@@ -10,7 +10,7 @@ paths:
 
 # HOI4 Modding
 
-These rules are derived from HOI4 Agent Skill. If `skill/hoi4-modding/` exists in this workspace, treat it as canonical. Otherwise, follow this adapter.
+These rules are derived from HOI4 Agent Skill. If `skills/hoi4-modding/` exists in this workspace, treat it as canonical. Otherwise, follow this adapter.
 
 Use these rules when creating, editing, reviewing, or debugging Hearts of Iron IV mods.
 
