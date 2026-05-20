@@ -1,0 +1,25 @@
+---
+description: Use when creating, editing, reviewing, or debugging Hearts of Iron IV mods.
+globs:
+  - "**/*.txt"
+  - "**/*.gui"
+  - "**/*.gfx"
+  - "**/*.asset"
+  - "**/*.yml"
+  - "**/*.mod"
+alwaysApply: true
+---
+
+# HOI4 Modding
+
+These rules are derived from HOI4 Agent Skill. If `skill/hoi4-modding/` exists in this workspace, treat it as canonical. Otherwise, follow this adapter.
+
+Treat HOI4 mods as Paradox data-script projects. Before editing, inspect the mod root, descriptor files, nearby conventions, prefixes, namespaces, localization files, and affected systems.
+
+Prefer small loadable edits. Add localization for visible text. Match event IDs to namespaces. Check scopes for triggers and effects. Verify focus references, event calls, idea references, and GFX references.
+
+When debugging, read `error.log` before guessing. Fix parse errors before logic errors.
+
+Do not edit vanilla installation files directly or copy proprietary HOI4/DLC assets into the repository.
+
+Do not claim in-game validation unless HOI4 was actually launched and tested.

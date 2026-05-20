@@ -1,0 +1,20 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs/env
+*.log
+.env
+.env.*
+
+# Local archives
+*.zip
+*.tar.gz
+
+# Python/cache, in case future scripts are added
+__pycache__/
+*.pyc
+.venv/
+
