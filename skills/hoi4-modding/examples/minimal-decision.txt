@@ -1,0 +1,27 @@
+# Minimal original decision example for tag ABC.
+# Demonstrates category nesting, decision visibility, an event call, and matching localization keys.
+# Place in a mod path like: common/decisions/ABC_decisions.txt
+
+ABC_reform_decisions = {
+  icon = generic_political_discourse
+
+  allowed = {
+    original_tag = ABC
+  }
+
+  ABC_hold_reform_meeting = {
+    visible = {
+      original_tag = ABC
+    }
+
+    available = {
+      has_political_power > 50
+    }
+
+    cost = 50
+
+    complete_effect = {
+      country_event = { id = abc_reform.1 }
+    }
+  }
+}

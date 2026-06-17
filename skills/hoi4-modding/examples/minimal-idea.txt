@@ -1,0 +1,19 @@
+# Minimal original idea example for tag ABC.
+# Demonstrates a country idea that can be added by a focus, event, or decision.
+# Place in a mod path like: common/ideas/ABC_ideas.txt
+
+ideas = {
+  country = {
+    ABC_industrial_committee_idea = {
+      picture = generic_production_bonus
+
+      allowed = {
+        original_tag = ABC
+      }
+
+      modifier = {
+        production_speed_buildings_factor = 0.05
+      }
+    }
+  }
+}

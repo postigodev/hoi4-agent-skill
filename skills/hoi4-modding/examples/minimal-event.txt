@@ -1,0 +1,19 @@
+# Minimal original event example for namespace abc_reform.
+# Demonstrates namespace alignment, externally fired events, and localization keys.
+# Place in a mod path like: events/ABC_events.txt
+
+add_namespace = abc_reform
+
+country_event = {
+  id = abc_reform.1
+  title = abc_reform.1.t
+  desc = abc_reform.1.d
+  picture = GFX_report_event_generic
+
+  is_triggered_only = yes
+
+  option = {
+    name = abc_reform.1.a
+    add_political_power = 25
+  }
+}

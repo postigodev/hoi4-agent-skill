@@ -1,0 +1,43 @@
+# Minimal original focus tree example for tag ABC.
+# Demonstrates a tiny two-focus branch, matching localization keys, and a safe custom icon reference.
+# Place in a mod path like: common/national_focus/ABC_focus_tree.txt
+
+focus_tree = {
+  id = ABC_focus_tree
+
+  country = {
+    factor = 0
+    modifier = {
+      add = 10
+      tag = ABC
+    }
+  }
+
+  default = no
+
+  focus = {
+    id = ABC_start_reform
+    icon = GFX_goal_ABC_reform
+    x = 0
+    y = 0
+    cost = 10
+
+    completion_reward = {
+      add_political_power = 50
+    }
+  }
+
+  focus = {
+    id = ABC_industrial_committee
+    icon = GFX_goal_ABC_reform
+    prerequisite = { focus = ABC_start_reform }
+    relative_position_id = ABC_start_reform
+    x = 0
+    y = 1
+    cost = 10
+
+    completion_reward = {
+      add_ideas = ABC_industrial_committee_idea
+    }
+  }
+}

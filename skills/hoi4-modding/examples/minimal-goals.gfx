@@ -1,0 +1,11 @@
+# Minimal original GFX declaration for the ABC focus examples.
+# Demonstrates the wrapper expected by .gfx files and a placeholder texture path.
+# The .dds file is not included. Do not claim the icon exists unless the asset is present.
+# Place in a mod path like: interface/ABC_goals.gfx
+
+spriteTypes = {
+  spriteType = {
+    name = "GFX_goal_ABC_reform"
+    texturefile = "gfx/interface/goals/ABC_reform.dds"
+  }
+}

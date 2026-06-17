@@ -1,0 +1,20 @@
+# Minimal original localization example for the ABC examples.
+# Demonstrates matching keys for focuses, events, decisions, and ideas.
+# Place in a mod path like: localisation/english/ABC_l_english.yml
+
+l_english:
+  ABC_start_reform:0 "Begin Administrative Reform"
+  ABC_start_reform_desc:0 "We will organize a small committee to review our institutions and prepare the next phase of reform."
+  ABC_industrial_committee:0 "Form the Industrial Committee"
+  ABC_industrial_committee_desc:0 "A focused industrial committee will coordinate early investment and production planning."
+
+  abc_reform.1.t:0 "The Reform Meeting"
+  abc_reform.1.d:0 "Representatives from across the administration have gathered to discuss the first steps of the reform program."
+  abc_reform.1.a:0 "Begin the work."
+
+  ABC_reform_decisions:0 "Administrative Reform"
+  ABC_hold_reform_meeting:0 "Hold a Reform Meeting"
+  ABC_hold_reform_meeting_desc:0 "Gather the reform committee and prepare a modest political initiative."
+
+  ABC_industrial_committee_idea:0 "Industrial Committee"
+  ABC_industrial_committee_idea_desc:0 "A small committee coordinates industrial priorities and removes early bottlenecks."

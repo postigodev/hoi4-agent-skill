@@ -69,6 +69,10 @@ Read the relevant reference files only when needed:
 - `references/11-debugging-error-log.md` for debugging workflows.
 - `references/13-common-failure-modes.md` for known HOI4 modding mistakes.
 
+## Examples
+
+Use `examples/` for small original ABC placeholder snippets and `examples/broken-cases/` for debugging patterns. Treat examples as educational starting points, not files to paste blindly into every mod.
+
 ## Editing Checklist
 
 Before finishing, verify:
