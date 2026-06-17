@@ -1,0 +1,102 @@
+[
+  {
+    "query": "my hoi4 focus tree disappeared after i added one focus, can you check the braces and error.log?",
+    "should_trigger": true,
+    "reason": "Direct HOI4 modding debugging request involving focus trees and error.log."
+  },
+  {
+    "query": "event says no event with ID abc_reform.4 when my decision fires, what did i break?",
+    "should_trigger": true,
+    "reason": "HOI4 event namespace/ID and decision-caller debugging should use the skill."
+  },
+  {
+    "query": "the game is showing ABC_start_reform instead of the focus name, fix the loc pls",
+    "should_trigger": true,
+    "reason": "Raw localization keys in an HOI4 mod are a core trigger."
+  },
+  {
+    "query": "make a PER focus branch that adds a national spirit and some political power",
+    "should_trigger": true,
+    "reason": "Creating a country focus branch and national spirit is HOI4 modding."
+  },
+  {
+    "query": "debug this hoi4 error.log excerpt, it mentions malformed token in common/national_focus",
+    "should_trigger": true,
+    "reason": "Log-driven HOI4 mod debugging is explicitly covered."
+  },
+  {
+    "query": "add a focus reward that gives ABC a new national spirit and remember localisation",
+    "should_trigger": true,
+    "reason": "Focus reward, idea, and localization work all belong to the skill."
+  },
+  {
+    "query": "create a decision category for ABC with a decision that fires abc_reform.1",
+    "should_trigger": true,
+    "reason": "HOI4 decisions and event calls are covered by the skill."
+  },
+  {
+    "query": "my custom focus icon is just a question mark, check the gfx stuff",
+    "should_trigger": true,
+    "reason": "GFX sprite and icon reference debugging is a skill trigger."
+  },
+  {
+    "query": "review this HOI4 mod PR for load-breaking issues before I merge it",
+    "should_trigger": true,
+    "reason": "Reviewing HOI4 mod changes for load and reference risks is covered."
+  },
+  {
+    "query": "hoi4 mod broke lol focus dont show and event no id, can u fix without nuking everything",
+    "should_trigger": true,
+    "reason": "Typo-heavy but clearly asks for HOI4 mod debugging across focus and event failures."
+  },
+  {
+    "query": "help me create a new AI agent skill for Kubernetes incident response",
+    "should_trigger": false,
+    "reason": "General skill creation is not HOI4 modding."
+  },
+  {
+    "query": "rewrite this README to make my Python package look more professional",
+    "should_trigger": false,
+    "reason": "Generic README writing does not involve HOI4 mod files."
+  },
+  {
+    "query": "debug my GitHub Actions workflow, the npm test job fails on Windows",
+    "should_trigger": false,
+    "reason": "CI debugging is unrelated to HOI4 modding."
+  },
+  {
+    "query": "my CK3 event chain is not firing, can you adapt these patterns?",
+    "should_trigger": false,
+    "reason": "Another Paradox game should not trigger this HOI4-specific skill unless explicitly adapting the skill itself."
+  },
+  {
+    "query": "write a short alternate history of WW2 where Persia industrializes early",
+    "should_trigger": false,
+    "reason": "History writing is not HOI4 mod file editing."
+  },
+  {
+    "query": "what is the best HOI4 strategy for Germany in multiplayer?",
+    "should_trigger": false,
+    "reason": "Gameplay strategy is not modding."
+  },
+  {
+    "query": "how do I publish my finished mod to Steam Workshop?",
+    "should_trigger": false,
+    "reason": "Publishing guidance without file/script editing is outside the skill's core modding workflow."
+  },
+  {
+    "query": "generate a logo image for my Hearts of Iron IV mod",
+    "should_trigger": false,
+    "reason": "Image/logo generation should use image tooling, not the HOI4 modding skill."
+  },
+  {
+    "query": "explain YAML anchors and aliases in a Kubernetes config",
+    "should_trigger": false,
+    "reason": "General YAML help unrelated to HOI4 localization should not trigger."
+  },
+  {
+    "query": "brainstorm mechanics for a grand strategy game about diplomacy",
+    "should_trigger": false,
+    "reason": "Generic game design brainstorming without HOI4 mod files is outside scope."
+  }
+]
