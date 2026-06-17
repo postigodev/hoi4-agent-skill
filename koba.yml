@@ -1,0 +1,14 @@
+version: 1
+profile: custom
+
+commits:
+  convention: conventional
+  requireScope: true
+
+checks:
+  preCommit: []
+  prePush: []
+
+# This is a documentation-first Agent Skill repository.
+# Keep Koba checks conservative: no hooks, no generated GitHub files, and no
+# executable validation scripts until the repo intentionally adopts them.

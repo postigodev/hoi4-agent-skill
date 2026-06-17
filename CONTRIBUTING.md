@@ -38,3 +38,19 @@ Avoid:
 Adapters under `adapters/` should point back to the canonical skill. They may include installation notes or compact behavior summaries, but they should not fork the full skill content.
 
 If behavior changes, update `skills/hoi4-modding/SKILL.md` first.
+
+## Maintainer Workflow With Koba
+
+This repository includes a conservative `koba.yml` workflow contract for commit and release preparation.
+
+Before preparing a commit, maintainers can run:
+
+```txt
+koba scan
+koba doctor
+koba run pre-commit --dry-run
+koba run pre-push --dry-run
+koba suggest-commit
+```
+
+The current Koba contract intentionally does not install hooks, generate GitHub files, or run executable checks. Treat Koba output as advisory: review the actual diff, keep commits scoped, and do not claim checks passed unless they were really executed.
